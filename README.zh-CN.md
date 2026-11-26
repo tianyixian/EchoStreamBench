@@ -10,6 +10,8 @@ EchoStreamBench canonical657 包含 **657 道题、591 个源视频、8 个来�
 
 本仓库提供题目、公开答案、评测协议、本地评分代码，以及 **11 种方法、17 个配置**的汇总结果。Hugging Face 提供同一批数据和 Dataset Viewer；原视频需按[媒体获取指南](MEDIA_ACCESS_GUIDE.md)从上游取得。
 
+> **论文即将公开：**《EchoStream: Measuring Long-Horizon Memory in Streaming Video Question Answering》将介绍 **RHM-X 的设计动机与架构实现思路**，包括近期视觉上下文、字幕记忆与检索得到的历史视觉证据如何组合。论文公开后，我们会在此补充链接。
+
 ## canonical657 完整排名
 
 更新：2026-11-25 · **11种方法、17个已评测配置** · 每行均为657题。

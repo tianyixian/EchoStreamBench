@@ -14,6 +14,8 @@ EchoStreamBench canonical657 contains **657 questions, 591 source videos, and 8 
 
 This repository provides the question manifest, answer key, evaluation protocol, scoring code, and aggregate results for **17 configurations across 11 methods**. The same data is available on [Hugging Face](https://huggingface.co/datasets/tianyixian/echostreambench-canonical657), including a Dataset Viewer. Source videos are obtained separately from their original releases; see the [media access guide](MEDIA_ACCESS_GUIDE.md).
 
+> **Paper coming soon:** *EchoStream: Measuring Long-Horizon Memory in Streaming Video Question Answering* will be released publicly soon. The paper explains the motivation and design of **RHM-X**, including how recent visual context, caption memory, and retrieved historical visual evidence are combined. We will add the paper link here when it becomes available.
+
 ## Complete canonical657 ranking
 
 Updated: 2026-11-25 · **17 evaluated configurations across 11 methods** · 657 questions per row.
