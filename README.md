@@ -1,12 +1,14 @@
 # EchoStreamBench
 
-**A reproducible evaluation suite for long-video question answering.**
+**A benchmark for studying memory in streaming video understanding.**
 
 [![Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/tianyixian/echostreambench-canonical657)
 [![Release](https://img.shields.io/github/v/release/tianyixian/EchoStreamBench)](https://github.com/tianyixian/EchoStreamBench/releases/latest)
 [![Validation](https://github.com/tianyixian/EchoStreamBench/actions/workflows/validate.yml/badge.svg)](https://github.com/tianyixian/EchoStreamBench/actions/workflows/validate.yml)
 
 [中文说明](README.zh-CN.md) · [Dataset Viewer](https://huggingface.co/datasets/tianyixian/echostreambench-canonical657/viewer/default/train) · [Quickstart](#quickstart) · [Full leaderboard](#complete-canonical657-ranking) · [Download ZIP](https://github.com/tianyixian/EchoStreamBench/releases/latest) · [Submit a result](SUBMIT.md)
+
+EchoStreamBench studies how video-language models and memory architectures retain and use earlier visual information as a video unfolds. The motivating question is whether a correct answer relies on older evidence or can be recovered from recent frames alone.
 
 EchoStreamBench canonical657 contains **657 questions, 591 source videos, and 8 source benchmarks**, with public reference answers and a local scorer. The suite has 647 multiple-choice questions and 10 open-ended questions. It covers LongVideoBench, LVBench, MLVU, OVO-Bench backward, RTV-Bench, StreamingBench, SVBench, and Video-MME.
 
