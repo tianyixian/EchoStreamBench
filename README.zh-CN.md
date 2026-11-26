@@ -2,7 +2,7 @@
 
 **面向长视频问答、可在本地复现的评测题集。**
 
-[English](README.md) · [Hugging Face 数据集](https://huggingface.co/datasets/tianyixian/echostreambench-canonical657) · [完整排名](#canonical657-完整排名) · [下载 ZIP](https://github.com/tianyixian/EchoStreamBench/releases/latest) · [提交结果](SUBMIT.md)
+[English](README.md) · [Hugging Face 数据集](https://huggingface.co/datasets/tianyixian/echostreambench-canonical657) · [在线浏览题目](https://huggingface.co/datasets/tianyixian/echostreambench-canonical657/viewer/default/train) · [完整排名](#canonical657-完整排名) · [下载 ZIP](https://github.com/tianyixian/EchoStreamBench/releases/latest) · [提交结果](SUBMIT.md)
 
 EchoStreamBench canonical657 包含 **657 道题、591 个源视频、8 个来源 benchmark**：647 道选择题和 10 道开放问答。来源为 LongVideoBench、LVBench、MLVU、OVO-Bench backward、RTV-Bench、StreamingBench、SVBench 和 Video-MME。
 
