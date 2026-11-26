@@ -1,0 +1,21 @@
+{
+  "schema": "echostreambench-answer-key-v1",
+  "release": "canonical657-reproducibility-20261124",
+  "benchmark": "EchoStreamBench canonical657",
+  "answer_key_included": true,
+  "media_included": false,
+  "total_items": 657,
+  "mcq_items": 647,
+  "openqa_items": 10,
+  "answer_file": "answers.jsonl",
+  "answer_file_sha256": "8c16b3ece2698643414430f07225512bb89505806416e7a4f1078ee82aaa3fbf",
+  "mapping_audit": {
+    "source_item_id": 644,
+    "question_sha256_for_redacted_rtv": 13,
+    "note": "The question hash is not globally unique; source_item_id was preferred. It was used only for 13 redacted RTV entries whose hashes are unique within the source answer package."
+  },
+  "scoring": {
+    "mcq": "exact match after extracting the first valid A-E option label",
+    "openqa": "normalized exact match is provided as a local baseline; historical leaderboard OpenQA used a frozen GLM-5.3 judge"
+  }
+}

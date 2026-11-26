@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+predictions*.jsonl
+scores*.json
+media/
+videos/
+weights/
+checkpoints/
+*.mp4
+*.mkv
+*.webm
+*.safetensors
+.DS_Store

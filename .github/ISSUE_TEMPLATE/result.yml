@@ -1,0 +1,25 @@
+name: Share an evaluation result
+description: Submit a complete canonical657 evaluation with reproducible settings.
+title: "[Result] "
+body:
+  - type: textarea
+    id: model
+    attributes:
+      label: Model and evaluation settings
+      description: Model/revision, architecture, memory budget, sampling, backend, decoding, media version, and evaluation date.
+    validations:
+      required: true
+  - type: textarea
+    id: score
+    attributes:
+      label: Results and scoring protocol
+      description: Report completed items out of 657, overall and MCQ scores, OpenQA score and scoring rule, plus any repairs or failures.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Reproduction artifacts
+      description: Link to the complete predictions, scorer report, code/configuration, and dataset release version. Exclude source videos, credentials, and private paths.
+    validations:
+      required: true

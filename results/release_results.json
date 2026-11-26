@@ -1,0 +1,108 @@
+{
+  "schema": "echostreambench-result-snapshot-v1",
+  "benchmark": "EchoStreamBench canonical657",
+  "evaluated_at": "2026-11-17T10:19:59+08:00",
+  "completion": {
+    "complete": true,
+    "inference_done": 2628,
+    "inference_missing": 0,
+    "judge_pending": 0,
+    "columns": 4,
+    "items_per_column": 657
+  },
+  "columns": {
+    "V1_PHCM": {
+      "correct": 291,
+      "total": 657,
+      "accuracy": 0.4429223744292237
+    },
+    "V1_RHM_X": {
+      "correct": 370,
+      "total": 657,
+      "accuracy": 0.563165905631659
+    },
+    "V2_PHCM": {
+      "correct": 290,
+      "total": 657,
+      "accuracy": 0.441400304414003
+    },
+    "V2_RHM_X": {
+      "correct": 411,
+      "total": 657,
+      "accuracy": 0.6255707762557078
+    }
+  },
+  "mcq": {
+    "items": 647,
+    "V1_PHCM": {
+      "correct": 286,
+      "accuracy": 0.4420401854714065
+    },
+    "V1_RHM_X": {
+      "correct": 365,
+      "accuracy": 0.5641421947449768
+    },
+    "V2_PHCM": {
+      "correct": 286,
+      "accuracy": 0.4420401854714065
+    },
+    "V2_RHM_X": {
+      "correct": 406,
+      "accuracy": 0.6275115919629057
+    }
+  },
+  "openqa": {
+    "items": 10,
+    "V1_PHCM": {
+      "correct": 5,
+      "accuracy": 0.5
+    },
+    "V1_RHM_X": {
+      "correct": 5,
+      "accuracy": 0.5
+    },
+    "V2_PHCM": {
+      "correct": 4,
+      "accuracy": 0.4
+    },
+    "V2_RHM_X": {
+      "correct": 5,
+      "accuracy": 0.5
+    }
+  },
+  "by_source_benchmark": {
+    "longvideobench": 172,
+    "lvbench": 57,
+    "mlvu": 204,
+    "ovo_backward": 8,
+    "rtv_bench": 13,
+    "streamingbench": 8,
+    "svbench": 10,
+    "video_mme": 185
+  },
+  "note": "Aggregate snapshot only; per-item predictions are withheld. The public reference answers are distributed separately under answers/ in the 2026-11-24 reproducibility snapshot.",
+  "supplementary_results": {
+    "MOSS_VL": {
+      "correct": 347,
+      "total": 657,
+      "accuracy": 0.528158295281583,
+      "mcq_correct": 344,
+      "mcq_total": 647,
+      "openqa_correct": 3,
+      "openqa_total": 10,
+      "eval_date": "2026-11-24",
+      "protocol": "disclosed repaired full-set evaluation; not merged into primary ranking",
+      "source": "results/moss_vl_canonical657.md"
+    }
+  },
+  "all_configurations_canonical657": {
+    "source": "leaderboard.json",
+    "json_key": "all_configurations_canonical657",
+    "csv": "results/canonical657_ranking.csv",
+    "notes": "results/canonical657_comparison.md",
+    "configuration_count": 17,
+    "method_count": 11,
+    "moss_rank": 8,
+    "ranking_kind": "descriptive_cross_configuration"
+  }
+}

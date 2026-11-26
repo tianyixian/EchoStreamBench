@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this dataset release and the upstream benchmarks you use."
+type: dataset
+title: "EchoStreamBench canonical657: Public Reproducibility Release"
+authors:
+  - name: "EchoStreamBench contributors"
+version: 1.1.0
+date-released: 2026-11-26
+url: "https://huggingface.co/datasets/tianyixian/echostreambench-canonical657"
+repository-code: "https://github.com/tianyixian/EchoStreamBench"
+keywords:
+  - video-question-answering
+  - long-video-understanding
+  - benchmark
+abstract: >-
+  A fixed 657-question reproducibility release with 647 multiple-choice
+  questions, 10 open-ended questions, public reference answers, a local
+  scorer, and aggregate evaluation results. Source videos are obtained
+  separately under their original licenses.

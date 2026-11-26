@@ -1,0 +1,3 @@
+# Preserve release hashes across platforms; do not convert line endings.
+* -text
+*.parquet binary

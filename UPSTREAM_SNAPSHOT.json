@@ -1,0 +1,18 @@
+{
+  "dataset": "https://huggingface.co/datasets/tianyixian/echostreambench-canonical657",
+  "revision": "bbd7452c20bc155eda4e7a0d5c88d1794f0fb338",
+  "github_release_date": "2026-11-26",
+  "version": "1.1.0",
+  "shared_files_sha256": {
+    "manifest.json": "28ae8d391a4667c69fdd98aa4b89d5ad4cf331d78027ef3c5010f1391f30c9dc",
+    "data/canonical657.jsonl": "85cd732559ea81d351fe52c3a048b2f2196e93c56fc78b67d133285b388e3374",
+    "data/train-00000-of-00001.parquet": "def83e3ce63e609542201ffed3429bcd6c5110289a0685495345dc6fb7befcf5",
+    "answers/answers.jsonl": "8c16b3ece2698643414430f07225512bb89505806416e7a4f1078ee82aaa3fbf",
+    "answers/answers_manifest.json": "84374f7653fdbfbaec3fde95cce16f8071cc0ae79f4fa639978666a16a77c822",
+    "answers/score.py": "f29bf9087cbf9c0e6935265ae89ab213e6188f7642c5deb9872b05ada687d8c3",
+    "leaderboard.json": "f9c5acfb4d9c12a2b60607642e83c0c83241b76f70f4f65900d256331e6fe358",
+    "leaderboard.csv": "b0d678d5a68721abfd7e5829cbb855760e309ce0cc58844ede3ca124f8ad9317",
+    "results/canonical657_ranking.csv": "48d6728e8554277e1731294dd10aead72beb8fd4a41fa8c901d7611047e1e310"
+  },
+  "notes": "Shared data, answers, scorer, and recorded scores are byte-identical to this Hugging Face revision. GitHub documentation and repository tooling are maintained separately."
+}

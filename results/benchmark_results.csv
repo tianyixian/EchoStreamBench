@@ -1,0 +1,45 @@
+Status,Scope,Version,Condition,Benchmark,Item type,Expected items,Inference complete,Scoring complete,Correct,Accuracy,Retained historical,New exact-frame
+Complete,Overall,V1,PHCM,All,All,657,657,657,291,0.44292237,602,55
+Complete,Item type,V1,PHCM,All,MCQ,647,647,647,286,0.44204019,593,54
+Complete,Item type,V1,PHCM,All,Open-ended,10,10,10,5,0.50000000,9,1
+Complete,Overall,V1,RHM-X,All,All,657,657,657,370,0.56316591,310,347
+Complete,Item type,V1,RHM-X,All,MCQ,647,647,647,365,0.56414219,308,339
+Complete,Item type,V1,RHM-X,All,Open-ended,10,10,10,5,0.50000000,2,8
+Complete,Overall,V2,PHCM,All,All,657,657,657,290,0.44140030,606,51
+Complete,Item type,V2,PHCM,All,MCQ,647,647,647,286,0.44204019,596,51
+Complete,Item type,V2,PHCM,All,Open-ended,10,10,10,4,0.40000000,10,0
+Complete,Overall,V2,RHM-X,All,All,657,657,657,411,0.62557078,329,328
+Complete,Item type,V2,RHM-X,All,MCQ,647,647,647,406,0.62751159,327,320
+Complete,Item type,V2,RHM-X,All,Open-ended,10,10,10,5,0.50000000,2,8
+Complete,Benchmark,V1,PHCM,longvideobench,All,172,172,172,93,0.54069767,141,31
+Complete,Benchmark,V1,RHM-X,longvideobench,All,172,172,172,100,0.58139535,49,123
+Complete,Benchmark,V2,PHCM,longvideobench,All,172,172,172,93,0.54069767,131,41
+Complete,Benchmark,V2,RHM-X,longvideobench,All,172,172,172,113,0.65697674,51,121
+Complete,Benchmark,V1,PHCM,lvbench,All,57,57,57,22,0.38596491,43,14
+Complete,Benchmark,V1,RHM-X,lvbench,All,57,57,57,32,0.56140351,19,38
+Complete,Benchmark,V2,PHCM,lvbench,All,57,57,57,22,0.38596491,47,10
+Complete,Benchmark,V2,RHM-X,lvbench,All,57,57,57,38,0.66666667,21,36
+Complete,Benchmark,V1,PHCM,mlvu,All,204,204,204,75,0.36764706,197,7
+Complete,Benchmark,V1,RHM-X,mlvu,All,204,204,204,112,0.54901961,141,63
+Complete,Benchmark,V2,PHCM,mlvu,All,204,204,204,75,0.36764706,204,0
+Complete,Benchmark,V2,RHM-X,mlvu,All,204,204,204,138,0.67647059,150,54
+Complete,Benchmark,V1,PHCM,ovo_backward,All,8,8,8,5,0.62500000,8,0
+Complete,Benchmark,V1,RHM-X,ovo_backward,All,8,8,8,5,0.62500000,6,2
+Complete,Benchmark,V2,PHCM,ovo_backward,All,8,8,8,5,0.62500000,8,0
+Complete,Benchmark,V2,RHM-X,ovo_backward,All,8,8,8,5,0.62500000,6,2
+Complete,Benchmark,V1,PHCM,rtv_bench,All,13,13,13,8,0.61538462,12,1
+Complete,Benchmark,V1,RHM-X,rtv_bench,All,13,13,13,8,0.61538462,3,10
+Complete,Benchmark,V2,PHCM,rtv_bench,All,13,13,13,8,0.61538462,13,0
+Complete,Benchmark,V2,RHM-X,rtv_bench,All,13,13,13,9,0.69230769,4,9
+Complete,Benchmark,V1,PHCM,streamingbench,All,8,8,8,7,0.87500000,8,0
+Complete,Benchmark,V1,RHM-X,streamingbench,All,8,8,8,7,0.87500000,1,7
+Complete,Benchmark,V2,PHCM,streamingbench,All,8,8,8,7,0.87500000,8,0
+Complete,Benchmark,V2,RHM-X,streamingbench,All,8,8,8,7,0.87500000,1,7
+Complete,Benchmark,V1,PHCM,svbench,All,10,10,10,5,0.50000000,9,1
+Complete,Benchmark,V1,RHM-X,svbench,All,10,10,10,5,0.50000000,2,8
+Complete,Benchmark,V2,PHCM,svbench,All,10,10,10,4,0.40000000,10,0
+Complete,Benchmark,V2,RHM-X,svbench,All,10,10,10,5,0.50000000,2,8
+Complete,Benchmark,V1,PHCM,video_mme,All,185,185,185,76,0.41081081,184,1
+Complete,Benchmark,V1,RHM-X,video_mme,All,185,185,185,101,0.54594595,89,96
+Complete,Benchmark,V2,PHCM,video_mme,All,185,185,185,76,0.41081081,185,0
+Complete,Benchmark,V2,RHM-X,video_mme,All,185,185,185,96,0.51891892,94,91

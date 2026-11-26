@@ -1,0 +1,15 @@
+name: EchoStreamBench canonical657
+description: >
+  EchoStreamBench canonical657 is a fixed 657-item long-video question
+  answering benchmark with 647 multiple-choice items and 10 open-ended items.
+  The reproducibility snapshot publishes the reference answers and a local
+  scorer. Source videos remain hosted by the upstream benchmarks under their
+  original licenses.
+
+leaderboard:
+  base_models_only: false
+
+tasks:
+  - id: canonical657
+    config: default
+    split: train
