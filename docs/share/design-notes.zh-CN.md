@@ -6,7 +6,7 @@
 - 01：用“还记得开头吗”提出问题，图形为原创示意。
 - 02：两条等长时间轴只展示证据位置差异，标明概念示意；不声称公开题集已附逐题距离分档。
 - 03：使用当前公开数据规模；647+10=657，17行为配置数量。
-- 04：从公开leaderboard.json生成完整17配置图，保留暂定与修复标识。OneStreamer V1/V2 (PHCM)为原生分层字幕记忆基线，OneStreamer V1/V2 + RHM-X为自研记忆配置；均为OneStreamer-4B底座。
+- 04：从公开leaderboard.json生成完整17配置图，保留暂定与修复标识。OneStreamer V1/V2 (PHCM)为原生分层字幕记忆基线，V1/V2 + RHM-X (Our work)为自研记忆配置；均为OneStreamer-4B底座。
 - 05：GitHub和Hugging Face双入口、双二维码，可直接进入代码仓库或数据集。
 
 文案没有沿用“其他benchmark都没测到记忆、都没分距离”的泛化说法，也不声称17配置是等资源公平排名。
